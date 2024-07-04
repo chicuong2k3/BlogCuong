@@ -1,0 +1,40 @@
+# Java Networking
+
+## TCP
+
+[!code-java[](code/TCPClient.java)]
+
+[!code-java[](code/TCPServer.java)]
+
+## UDP
+
+[!code-java[](code/UDPClient1.java)]
+
+[!code-java[](code/UDPClient2.java)]
+
+## URL
+
+```java
+import java.net.*; 
+import java.io.*; 
+
+public class URLDirect { 
+	public static void main(String[] args) {
+		try {
+			URL url = new URL("https://www.hcmus.edu.vn/");
+			 
+			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));  
+			String inputLine;
+			while ((inputLine = in.readLine()) != null) 			      	      
+				System.out.println(inputLine); 
+			in.close(); 
+		} 
+		catch (MalformedURLException mue) {
+			System.out.println("Check your URL");
+		}
+		catch (IOException ioe) {
+			System.out.println("Check your IO stream");
+		}
+	} 
+} 
+```

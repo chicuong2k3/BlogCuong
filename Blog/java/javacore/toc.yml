@@ -1,0 +1,6 @@
+- name: Java Core
+  items:
+      - href: java-csharp-comparison.md
+      - href: multithread.md
+      - href: synchronization.md
+      - href: networking.md
