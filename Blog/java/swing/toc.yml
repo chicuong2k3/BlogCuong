@@ -2,4 +2,5 @@
   items:
       - href: intro-java-swing.md
       - href: layout-manager.md
+      - href: basic-control.md
       - href: event-model.md
