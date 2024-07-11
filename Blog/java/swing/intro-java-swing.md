@@ -54,6 +54,3 @@ topLevelContainer.setContentPane(contentPane);
 > The glass pane is often used to intercept events occurring on the top-level container or to draw over multiple components.
 
 ![Root Pane](https://docs.oracle.com/javase/tutorial/figures/ui/ui-rootPane.gif)
-
-
-[!code-java[](code/MainWindow.java)]
