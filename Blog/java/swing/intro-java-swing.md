@@ -56,3 +56,4 @@ topLevelContainer.setContentPane(contentPane);
 ![Root Pane](https://docs.oracle.com/javase/tutorial/figures/ui/ui-rootPane.gif)
 
 
+[!code-java[](code/MainWindow.java)]
