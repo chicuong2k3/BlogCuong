@@ -7,6 +7,15 @@
   items:
     - name: SignalR
       href: dotnet/signalr/
+    - name: ASP.NET Core
+      href: dotnet/aspnetcore/
+    - name: WPF
+      href: dotnet/wpf/
+
+- name: Javacript
+  items:
+    - name: Javascript cơ bản
+      href: javascript/javascript-basic/
 
 - name: Java
   items:
